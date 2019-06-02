@@ -10,6 +10,7 @@ class LuisModule {
     client.on('message', message => {
       if (message.content.includes('Luis')) {
         message.react(this.luisEmote.id);
+        message.channel.send('\u30A2\u30DB');
       }
     })
   }
