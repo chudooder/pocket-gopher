@@ -1,0 +1,6 @@
+{
+  "enabled_modules": [
+    "ping",
+    "luis"
+  ]
+}
