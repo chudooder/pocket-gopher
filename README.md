@@ -1,7 +1,9 @@
 # Setup
 
+```
 npm install
 TOKEN=<client-token> node index.js
+```
 
 # Code structure
 
