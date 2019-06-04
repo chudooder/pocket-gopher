@@ -1,6 +1,7 @@
 {
   "enabled_modules": [
     "ping",
-    "luis"
+    "luis",
+    "very-good-chris-joke-generator"
   ]
 }
