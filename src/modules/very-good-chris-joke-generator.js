@@ -23,7 +23,7 @@ class VeryGoodChrisJokeGenerator {
 
     initialize(client) {
         client.on('message', message => {
-            if (message.content.contains('chris joke')) {
+            if (/\w*(chris joke)+\w*/.test(message.content)) {
                 message.channel.send(this.chrisJoke());
             }
         })
